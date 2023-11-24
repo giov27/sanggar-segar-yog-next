@@ -1,8 +1,87 @@
-const Navbar = () => {
-  return <h1>asdfg</h1>;
+'use client';
+
+import { NextPage } from 'next';
+import Image from 'next/image';
+import { Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
+import { FaMapLocationDot } from 'react-icons/fa6';
+import styled from 'styled-components';
+import styles from '@/app/page.module.css';
+import NavItem from './NavItem';
+import NavItemDropdown from './NavItemDropdown';
+import Link from 'next/link';
+
+const StyledNavbar = styled(Navbar)`
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+`;
+
+const NavbarToggle = styled(Navbar.Toggle)`
+  font-size: 1rem;
+  border: 0;
+  &:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px #040b4a;
+  }
+`;
+
+const NavigationBar: NextPage = () => {
+  return (
+    <StyledNavbar collapseOnSelect expand="md" className="">
+      <Container>
+        <NavbarToggle aria-controls="responsive-navbar-nav" />
+        <Link href="/">
+          <Image
+            src="/LOGO_SEGAR.svg"
+            alt="Studio Segar Logo"
+            className=""
+            width={100}
+            height={24}
+            priority
+          />
+        </Link>
+        <Navbar.Brand
+          href="https://goo.gl/maps/BACa1tY9bhMYRb9Q8"
+          target="_blank"
+        >
+          <FaMapLocationDot color="#040B4A" />
+        </Navbar.Brand>
+
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mt-2">
+            <NavItemDropdown title="Program Sanggar" />
+            <NavItem title="Instruktur" link="/instruktur" />
+            <NavItem title="Membership" link="/membership" />
+            <NavItem
+              title="Tentang Sanggar"
+              link="/tentang-sanggar"
+            />
+
+            {/* <NavDropdown
+              title="Program Sanggar"
+              id="collapsible-nav-dropdown"
+              className={styles.navFontCenter}
+            >
+              <NavDropdown.Item href="#action/3.1">
+                Action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                Something
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown> */}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </StyledNavbar>
+  );
 };
 
-export default Navbar;
+export default NavigationBar;
 {
   /* <nav class="navbar navbar-expand-lg bg-white fixed-top">
     <div class="container-fluid">
