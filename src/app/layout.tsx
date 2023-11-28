@@ -3,8 +3,17 @@ import { Inter } from 'next/font/google';
 import Providers from '@/styles/Providers';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from '@/components/Navbar';
+import { Roboto } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import Footer from '@/components/Footer';
+
+const roboto = Roboto({
+  weight: ['400', '500', '700', '900'],
+  subsets: ['latin'],
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -18,10 +27,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={roboto.className}>
         <Providers>
           <NavigationBar />
           {children}
+          <Footer />
         </Providers>
       </body>
     </html>

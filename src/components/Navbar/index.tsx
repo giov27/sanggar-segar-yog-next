@@ -12,6 +12,7 @@ import Link from 'next/link';
 
 const StyledNavbar = styled(Navbar)`
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
 `;
 
 const NavbarToggle = styled(Navbar.Toggle)`
@@ -25,7 +26,12 @@ const NavbarToggle = styled(Navbar.Toggle)`
 
 const NavigationBar: NextPage = () => {
   return (
-    <StyledNavbar collapseOnSelect expand="md" className="">
+    <StyledNavbar
+      collapseOnSelect
+      expand="md"
+      className=""
+      sticky="top"
+    >
       <Container>
         <NavbarToggle aria-controls="responsive-navbar-nav" />
         <Link href="/">

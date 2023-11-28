@@ -1,12 +1,19 @@
+'use client';
 import Image from 'next/image';
-import styled from 'styled-components';
-import { RedTitle } from './page.styled';
-import NavigationBar from '@/components/Navbar';
+import FirstSectionMobile from '@/components/IndexPage/FirstSection.mobile';
+import SecondSectionMobile from '@/components/IndexPage/SecondSection.mobile';
+import ThirdSectionMobile from '@/components/IndexPage/ThirdSection.mobile';
+import FourthSectionMobile from '@/components/IndexPage/FourthSection.mobile';
+import FifthSectionMobile from '@/components/IndexPage/FifthSection.mobile';
 
 export default function Home() {
   return (
     <>
-      <div>Sanggar Segar</div>
+      <FirstSectionMobile />
+      <SecondSectionMobile />
+      <ThirdSectionMobile />
+      <FourthSectionMobile />
+      <FifthSectionMobile />
     </>
   );
 }

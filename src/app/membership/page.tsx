@@ -1,10 +1,12 @@
+'use client';
+
 import { HeroSection } from '../page.styled';
 
-export default function Instruktur() {
+export default function Membership() {
   return (
     <>
       <HeroSection>
-        <h1>Instruktur Sanggar Segar</h1>
+        <h1>Membership Sanggar Segar</h1>
       </HeroSection>
     </>
   );
