@@ -96,12 +96,11 @@ export const CardJoin = styled.div`
 
 export const HeroSection = styled.div`
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #4c55a8;
-  margin-bottom: 48px;
 
   h1 {
     margin: 0;

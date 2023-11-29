@@ -1,0 +1,101 @@
+{
+  "instructors": [
+    {
+      "img": "/instructor/instruktur_senam_dra.png",
+      "alt": "Instruktur Senam Dra",
+      "trainerName": "Dra. Praptiningsih",
+      "trainerTitle": "Penguji UJK LSKSI",
+      "trainerExp": "(Pengalaman 30 Tahun)",
+      "trainerExpDesc1": "Dra. Praptiningsih memiliki pengalaman sebagai instruktur pelatihan selama ",
+      "trainerExpDesc2": "30 tahun",
+      "trainerExpDesc3": ", yang tersebar di,",
+      "trainerCourses": [
+        "Marlupi Ballet",
+        "Sanggar Senam Kartika Dewi",
+        "Sanggar Senam Hanna",
+        "Sanggar Senam Noni Kusuma",
+        "Merapi View",
+        "LKP Segar"
+      ]
+    },
+    {
+      "img": "/instructor/instruktur_senam_apri_astuti.png",
+      "alt": "Instruktur Senam Apri Astuti",
+      "trainerName": "Apri Astuti",
+      "trainerTitle": "Senam Level III",
+      "trainerExp": "(Pengalaman 15 Tahun)",
+      "trainerExpDesc1": "Apri Astuti memiliki pengalaman sebagai instruktur pelatihan selama ",
+      "trainerExpDesc2": "15 tahun",
+      "trainerExpDesc3": ", yang tersebar di,",
+      "trainerCourses": [
+        "BPR Bantul",
+        "Sanggar Senam Puspita",
+        "LKP Segar"
+      ]
+    },
+    {
+      "img": "/instructor/instruktur_senam_atik_maryani.png",
+      "alt": "Instruktur Senam Atik Maryani",
+      "trainerName": "Atik Maryani",
+      "trainerTitle": "Senam Level III",
+      "trainerExp": "(Pengalaman 15 Tahun)",
+      "trainerExpDesc1": "Atik Maryani memiliki pengalaman sebagai instruktur pelatihan selama ",
+      "trainerExpDesc2": "15 tahun",
+      "trainerExpDesc3": ", yang tersebar di,",
+      "trainerCourses": [
+        "Chris Studio",
+        "Sanggar Senam Puspita",
+        "Sanggar Senam Yulita",
+        "LKP Segar"
+      ]
+    },
+    {
+      "img": "/instructor/instruktur_senam_slamet_widodo.png",
+      "alt": "Instruktur Senam Slamet Widodo",
+      "trainerName": "Slamet Widodo",
+      "trainerTitle": "Senam Level III",
+      "trainerExp": "(Pengalaman 20 Tahun)",
+      "trainerExpDesc1": "Slamet Widodo memiliki pengalaman sebagai instruktur pelatihan selama ",
+      "trainerExpDesc2": "20 tahun",
+      "trainerExpDesc3": ", yang tersebar di,",
+      "trainerCourses": [
+        "Estafet Indonesia",
+        "Sanggar Senam Kartika Dewi",
+        "LKP Segar"
+      ]
+    },
+    {
+      "img": "/instructor/instruktur_senam_chrisna_febriawati.png",
+      "alt": "Instruktur Senam Chrisna Febriawati",
+      "trainerName": "Chrisna Febriawati",
+      "trainerTitle": "Senam Level III",
+      "trainerExp": "(Pengalaman 10 Tahun)",
+      "trainerExpDesc1": "Chrisna Febriawati memiliki pengalaman sebagai instruktur pelatihan selama ",
+      "trainerExpDesc2": "10 tahun",
+      "trainerExpDesc3": ", yang tersebar di,",
+      "trainerCourses": ["Sleman City Hall", "Tirtasani", "LKP Segar"]
+    },
+    {
+      "img": "/instructor/instruktur_senam_agus_margunaji_s.png",
+      "alt": "Instruktur Senam Agus Margunaji S",
+      "trainerName": "Agus Margunaji, S.Pd",
+      "trainerTitle": "Senam Level III",
+      "trainerExp": "(Pengalaman 20 Tahun)",
+      "trainerExpDesc1": "Agus Margunaji memiliki pengalaman sebagai instruktur pelatihan selama ",
+      "trainerExpDesc2": "20 tahun",
+      "trainerExpDesc3": ", yang tersebar di,",
+      "trainerCourses": ["Lembaga Jantung Sehat Sleman", "LKP Segar"]
+    },
+    {
+      "img": "/instructor/instruktur_senam_supadi_s.png",
+      "alt": "Instruktur Senam Supadi S",
+      "trainerName": "Supari, S.Sn",
+      "trainerTitle": "Senam Level III",
+      "trainerExp": "(Pengalaman 18 Tahun)",
+      "trainerExpDesc1": "Supari memiliki pengalaman sebagai instruktur pelatihan selama ",
+      "trainerExpDesc2": "18 tahun",
+      "trainerExpDesc3": ", yang tersebar di,",
+      "trainerCourses": ["DF Jogja", "Purworejo", "LKP Segar"]
+    }
+  ]
+}
