@@ -50,7 +50,7 @@ const ButtonDesc = (props: IButtonDescProps) => {
   return (
     <React.Fragment>
       <div className={`${extendClass}`}>
-        <Wrapper>
+        <Wrapper className="align-items-center">
           <Col>
             <Btn>{btnText}</Btn>
           </Col>
