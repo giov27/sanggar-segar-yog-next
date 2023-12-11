@@ -1,0 +1,54 @@
+{
+  "facilities": [
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_studio.png",
+      "altText": "Fasilitas Studio Segar Tempat Senam Terdekat",
+      "description": "Studio Sanggar"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_barbel.png",
+      "altText": "Fasilitas Barbel Studio Segar Tempat Senam Terdekat",
+      "description": "Barbel"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_matras.png",
+      "altText": "Fasilitas Matras Studio Segar Tempat Senam Terdekat",
+      "description": "Matras"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_ruang_studio_belajar.png",
+      "altText": "Fasilitas Ruang Studio Belajar Studio Segar Tempat Senam Terdekat",
+      "description": "Ruang Studio Belajar"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_dengklik.png",
+      "altText": "Fasilitas Dengklik Studio Segar Tempat Senam Terdekat",
+      "description": "Dengklik"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_player.png",
+      "altText": "Fasilitas Player dan TV Studio Segar Tempat Senam Terdekat",
+      "description": "Player dan TV"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_buku.png",
+      "altText": "Fasilitas Buku Materi Studio Segar Tempat Senam Terdekat",
+      "description": "Buku Materi"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_bola_besar.png",
+      "altText": "Fasilitas Bola Besar Studio Segar Tempat Senam Terdekat",
+      "description": "Bola Besar"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_matras_yoga.png",
+      "altText": "Fasilitas Matras Yoga Studio Segar Tempat Senam Terdekat",
+      "description": "Bola Besar"
+    },
+    {
+      "img": "/facility/sanggar_tempat-senam-terdekat_fasilitas_cd.png",
+      "altText": "Fasilitas CD Video Pelatihan Studio Segar Tempat Senam Terdekat",
+      "description": "CD Video Pelatihan"
+    }
+  ]
+}

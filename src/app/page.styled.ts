@@ -1,7 +1,9 @@
 'use client';
+import Image from 'next/image';
 import { Button, Container, Ratio } from 'react-bootstrap';
 import { text } from 'stream/consumers';
 import styled from 'styled-components';
+import { SwiperSlide } from 'swiper/react';
 
 export const RedTitle = styled.h1`
   font-size: 50px;
@@ -110,5 +112,62 @@ export const HeroSection = styled.div`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+`;
+
+export const StyledImage = styled(Image)<{ $height: string }>`
+  width: 100%;
+  height: ${({ $height }) => $height};
+  object-fit: cover;
+  border-radius: 8px;
+  padding: 4px 0;
+`;
+
+export const InstructorCard = styled.div`
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const InstructorDescCard = styled.div`
+  padding: 8px;
+  min-height: 270px;
+`;
+
+export const InstructorName = styled.h3`
+  color: #040b4a;
+  text-align: start;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 6px;
+`;
+
+export const InstructorTitle = styled.h6<{ $fontweight: number }>`
+  color: #040b4a;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: ${({ $fontweight }) => $fontweight};
+  line-height: normal;
+  text-align: start;
+  margin-bottom: 0;
+`;
+
+export const InstructorListCourse = styled.ul`
+  display: block;
+  list-style-type: '-';
+  margin-block-start: 8px;
+  margin-block-end: 8px;
+  margin-inline-start: 0px;
+  margin-inline-end: 10px;
+  padding-inline-start: 5px;
+  text-align: start;
+  font-weight: 500;
+  color: #040b4a;
+  font-size: 14px;
+  li {
+    padding-left: 6px;
   }
 `;

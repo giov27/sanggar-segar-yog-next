@@ -1,0 +1,25 @@
+{
+  "testimonies": [
+    {
+      "img": "/testimoni/bondhan.png",
+      "alt": "Bondhan Puspitosari, S.E",
+      "testimonyName": "Bondhan Puspitosari, S.E",
+      "testimonyLoc": "Pemilik Sanggar Senam Puspita Kulonprogo, D.I. Yogyakarta",
+      "desc": "“LKP Segar telah meningkatkan kualitas saya sebagai instruktur senam yang berkualitas dan kompeten, hingga dapat membangun sanggar sendiri. Terima kasih untuk LKP SEGAR, bu Praptiningsih dan admin Segar yang sudah banyak membantu perkembangan Sanggar Puspita dan saya pribadi sampai sekarang ini.”"
+    },
+    {
+      "img": "/testimoni/febby.png",
+      "alt": "Febby Madyastuti",
+      "testimonyName": "Febby Madyastuti",
+      "testimonyLoc": "Kediri, Jawa Timur",
+      "desc": "“Hal-hal yang saya dapatkan ketika saya mengikuti program pelatihan di LKP Segar yang pertama adalah pengalaman, dan yang kedua adalah ilmu yang bermanfaat. Semoga dengan ilmu-ilmu yang telah dipelajari dapat membimbing saya menjadi seorang instruktur senam yang berdedikasi. Terima kasih. Salam Olahraga!”"
+    },
+    {
+      "img": "/testimoni/iis.png",
+      "alt": "Iis Daryati",
+      "testimonyName": "Iis Daryati",
+      "testimonyLoc": "Tuban, Jawa Timur",
+      "desc": "“Sebagai seorang peserta dari kelas KPS Level II dan III Privat, ilmu yang saya dapatkan sangat bermanfaat untuk perjalanan profesi saya. Pelayananan yang diberikan Studio Segar sangat ramah dan sudah seperti keluarga sendiri. Terima kasih kepada bu Prapti sebagai pimpinan dan Tim Pengajar LKP Segar atas ilmunya.”"
+    }
+  ]
+}

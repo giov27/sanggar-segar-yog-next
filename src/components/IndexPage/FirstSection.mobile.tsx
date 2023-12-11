@@ -1,6 +1,7 @@
 import {
   BackgroundContainer,
   Desc,
+  StyledImage,
   SubTitle,
   Title,
   VideoRatio,
@@ -8,7 +9,8 @@ import {
 import ButtonDesc from '../ButtonDesc';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, FreeMode } from 'swiper/modules';
+import facilitiesData from '@/lib/facilitiesIndexData.json';
 
 const FirstSectionMobile = () => {
   return (
@@ -53,18 +55,34 @@ const FirstSectionMobile = () => {
         </Desc>
         <Swiper
           slidesPerView={'auto'}
-          centeredSlides={true}
-          spaceBetween={30}
+          // centeredSlides={true}
+          spaceBetween={20}
           pagination={{
             clickable: true,
+            dynamicBullets: true,
           }}
+          freeMode={true}
           navigation={true}
-          modules={[Pagination, Navigation]}
+          modules={[Pagination, Navigation, FreeMode]}
           className="mySwiper"
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
+          {facilitiesData &&
+            facilitiesData.facilities.map((v: any, i: number) => (
+              <SwiperSlide
+                className="text-center swiper-facility"
+                key={i}
+              >
+                <StyledImage
+                  src={v.img}
+                  alt={v.altText}
+                  width={400}
+                  height={250}
+                  loading="lazy"
+                  $height="140px"
+                />
+                <h6>{v.description}</h6>
+              </SwiperSlide>
+            ))}
         </Swiper>
       </BackgroundContainer>
     </>

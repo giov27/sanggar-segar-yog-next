@@ -5,6 +5,10 @@ import {
   StyledButton,
   SubTitle,
 } from '@/app/page.styled';
+import { FreeMode, Navigation, Pagination } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import testimoniesData from '@/lib/testimoniesData.json';
+import TestimonyCard from '../TestimonyCard';
 
 const FourthSectionMobile = () => {
   return (
@@ -33,6 +37,38 @@ const FourthSectionMobile = () => {
           kebutuhan pribadi hingga kebutuhan profesional. Kamu adalah
           selanjutnya?!
         </Desc>
+        <Swiper
+          slidesPerView={'auto'}
+          // centeredSlides={true}
+          spaceBetween={20}
+          pagination={{
+            clickable: true,
+            dynamicBullets: true,
+          }}
+          freeMode={true}
+          navigation={true}
+          modules={[Pagination, Navigation, FreeMode]}
+          className="mySwiper"
+        >
+          {testimoniesData &&
+            testimoniesData.testimonies.map((v: any, i: number) => (
+              <SwiperSlide
+                className="text-center swiper-testimonies"
+                key={i}
+              >
+                <TestimonyCard {...v} />
+                {/* <StyledImage
+                  src={v.img}
+                  alt={v.altText}
+                  width={400}
+                  height={250}
+                  loading="lazy"
+                  $height="140px"
+                />
+                <h6>{v.description}</h6> */}
+              </SwiperSlide>
+            ))}
+        </Swiper>
       </BackgroundContainer>
     </>
   );
