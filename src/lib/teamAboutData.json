@@ -1,0 +1,32 @@
+{
+  "team": [
+    {
+      "img": "/team/prapti.png",
+      "alt": "Dra. Praptiningsih",
+      "teamName": "Dra. Praptiningsih",
+      "teamPosition": "Pemimpin",
+      "desc": "Mengabdikan diri selama lebih dari 30 tahun dalam industri seni dan senam, serta tergabung dalam beberapa studio dan sanggar menjadikan Dra. Praptiningsih bersemangat untuk menyebarkan ilmu dan petualangannya. Mengikuti mimpinya, Dra. Praptiningsih membangun LKP Segar sebagai sarana kontribusi secara langsung terhadap pembangunan ekosistem yang sehat bagi para talenta yang berminat untuk mendalami ilmu seni dan senam."
+    },
+    {
+      "img": "/team/apri.png",
+      "alt": "Apri Astuti",
+      "teamName": "Apri Astuti",
+      "teamPosition": "Sekretaris",
+      "desc": "Menghabiskan 15 tahun untuk terlibat dalam industri seni dan senam, Apri Astuti aktif terlibat di BPR Bantul, Sanggar Senam Puspita, dan LKP Segar sebagai instruktur berpengalaman. Apri Astuti meyakini bahwa visi misi yang dimiliki oleh LKP Segar sejalan dengan yang dia miliki untuk memberikan akses pelatihan berkualitas dalam mencetak talenta berbakat."
+    },
+    {
+      "img": "/team/lukita.png",
+      "alt": "Lukita Purnama Sari",
+      "teamName": "Lukita Purnama Sari",
+      "teamPosition": "Bendahara",
+      "desc": "Bagus"
+    },
+    {
+      "img": "/team/perwira.png",
+      "alt": "Perwira Aji",
+      "teamName": "Perwira Aji",
+      "teamPosition": "Administrasi",
+      "desc": "Keren"
+    }
+  ]
+}

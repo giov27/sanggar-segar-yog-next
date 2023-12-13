@@ -61,7 +61,7 @@ const SecondSectionMobile = () => {
                     width={400}
                     height={250}
                     loading="lazy"
-                    $height={'200px'}
+                    $height={'180px'}
                     className="p-0"
                   />
                   <InstructorDescCard>

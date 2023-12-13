@@ -3,11 +3,11 @@
 import Image from 'next/image';
 import styled from 'styled-components';
 
-interface ITestimony {
+interface ITeam {
   img: string;
   alt: string;
-  testimonyName: string;
-  testimonyLoc: string;
+  teamName: string;
+  teamPosition: string;
   desc: string;
   index: number;
 }
@@ -17,7 +17,7 @@ const Card = styled.div`
   background: #fff;
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
   padding: 10px;
-  min-height: 30vh;
+  min-height: 40vh;
 `;
 
 const StyledName = styled.h4`
@@ -52,9 +52,8 @@ const StyledDesc = styled.p`
   line-height: normal;
 `;
 
-const TestimonyCard = (props: ITestimony) => {
-  const { img, alt, testimonyName, testimonyLoc, desc, index } =
-    props;
+const TeamCard = (props: ITeam) => {
+  const { img, alt, teamName, teamPosition, desc, index } = props;
   return (
     <Card>
       <Image
@@ -67,10 +66,10 @@ const TestimonyCard = (props: ITestimony) => {
         loading={index > 1 ? 'lazy' : undefined}
       />
       <StyledName className="rounded-circle mb-1">
-        {testimonyName}
+        {teamName}
       </StyledName>
       <StyledLoc className="rounded-circle mb-1">
-        {testimonyLoc}
+        {teamPosition}
       </StyledLoc>
       <HorizontalLine />
       <StyledDesc>{desc}</StyledDesc>
@@ -78,4 +77,4 @@ const TestimonyCard = (props: ITestimony) => {
   );
 };
 
-export default TestimonyCard;
+export default TeamCard;

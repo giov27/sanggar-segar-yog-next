@@ -13,6 +13,8 @@ import { FreeMode, Navigation, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 import mediaPartnerData from '@/lib/mediaPartnerData.json';
 import facilitiesData from '@/lib/facilitiesIndexData.json';
+import teamData from '@/lib/teamAboutData.json';
+import TeamCard from '@/components/TeamCard';
 
 export default function TentangSanggar() {
   return (
@@ -97,6 +99,26 @@ export default function TentangSanggar() {
           Mereka yang mengabdikan diri untuk tumbuh dan berkembang
           bersama talenta profesional di Studo Segar.
         </Desc>
+        <Swiper
+          slidesPerView={2}
+          // centeredSlides={true}
+          spaceBetween={20}
+          pagination={{
+            clickable: true,
+            dynamicBullets: true,
+          }}
+          freeMode={true}
+          navigation={true}
+          modules={[Pagination, Navigation, FreeMode]}
+          className="mySwiper pb-3"
+        >
+          {teamData &&
+            teamData.team.map((v: any, i: number) => (
+              <SwiperSlide className="text-center" key={i}>
+                <TeamCard {...v} />
+              </SwiperSlide>
+            ))}
+        </Swiper>
         <SubTitle $textalign="center" $color="#040B4A" $mt="32px">
           Media Partner
         </SubTitle>
