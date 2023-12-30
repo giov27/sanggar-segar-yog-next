@@ -27,7 +27,7 @@ const FifthSectionMobile = () => {
           freeMode={true}
           navigation={true}
           modules={[Pagination, Navigation, FreeMode]}
-          className="mySwiper"
+          className="mySwiper pb-4"
         >
           {mediaPartnerData &&
             mediaPartnerData.mediaPartners.map(

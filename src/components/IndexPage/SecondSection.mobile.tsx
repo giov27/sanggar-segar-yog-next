@@ -49,7 +49,7 @@ const SecondSectionMobile = () => {
           freeMode={true}
           navigation={true}
           modules={[Pagination, Navigation, FreeMode]}
-          className="mySwiper"
+          className="mySwiper pb-5"
         >
           {instructorsData &&
             instructorsData.instructors.map((v: any, i: number) => (

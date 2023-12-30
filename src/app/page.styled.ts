@@ -132,7 +132,7 @@ export const InstructorCard = styled.div`
 
 export const InstructorDescCard = styled.div`
   padding: 8px;
-  min-height: 270px;
+  min-height: 34vh;
 `;
 
 export const InstructorName = styled.h3`

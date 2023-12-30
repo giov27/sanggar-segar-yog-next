@@ -7,7 +7,13 @@
   padding: 0.5rem;
 }
 
-.navFontCenter:active {
-  color: #040b4a !important;
-  font-weight: 800;
+.navFontCenter:hover {
+  text-decoration: underline;
+}
+
+.navFontCenterActive {
+  color: white !important;
+  font-weight: 600;
+  background-color: #040b4a;
+  border-radius: 8px;
 }

@@ -48,7 +48,7 @@ const FourthSectionMobile = () => {
           freeMode={true}
           navigation={true}
           modules={[Pagination, Navigation, FreeMode]}
-          className="mySwiper"
+          className="mySwiper pb-3"
         >
           {testimoniesData &&
             testimoniesData.testimonies.map((v: any, i: number) => (

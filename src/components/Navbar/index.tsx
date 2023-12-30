@@ -9,6 +9,7 @@ import styles from '@/app/page.module.css';
 import NavItem from './NavItem';
 import NavItemDropdown from './NavItemDropdown';
 import Link from 'next/link';
+import { useState } from 'react';
 
 const StyledNavbar = styled(Navbar)`
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
@@ -25,16 +26,20 @@ const NavbarToggle = styled(Navbar.Toggle)`
 `;
 
 const NavigationBar: NextPage = () => {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <StyledNavbar
       collapseOnSelect
       expand="md"
       className=""
       sticky="top"
+      expanded={expanded}
+      onToggle={setExpanded}
     >
       <Container>
         <NavbarToggle aria-controls="responsive-navbar-nav" />
-        <Link href="/">
+        <Link href="/" onClick={() => setExpanded(false)}>
           <Image
             src="/LOGO_SEGAR.svg"
             alt="Studio Segar Logo"
@@ -51,17 +56,36 @@ const NavigationBar: NextPage = () => {
           <FaMapLocationDot color="#040B4A" />
         </Navbar.Brand>
 
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          onSelect={() => setExpanded(false)}
+        >
           <Nav className="mt-2">
             <NavItemDropdown title="Program Sanggar" />
-            <NavItem title="Instruktur" link="/instruktur" />
-            <NavItem title="Membership" link="/membership" />
+            <NavItem
+              title="Instruktur"
+              link="/instruktur"
+              toggle={setExpanded}
+            />
+            <NavItem
+              title="Membership"
+              link="/membership"
+              toggle={setExpanded}
+            />
             <NavItem
               title="Tentang Sanggar"
               link="/tentang-sanggar"
+              toggle={setExpanded}
             />
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </StyledNavbar>
+  );
+};
 
-            {/* <NavDropdown
+{
+  /* <NavDropdown
               title="Program Sanggar"
               id="collapsible-nav-dropdown"
               className={styles.navFontCenter}
@@ -79,13 +103,8 @@ const NavigationBar: NextPage = () => {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown> */}
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </StyledNavbar>
-  );
-};
+            </NavDropdown> */
+}
 
 export default NavigationBar;
 {

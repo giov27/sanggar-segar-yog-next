@@ -57,7 +57,7 @@ const styles = css`
   .swiper-pagination-bullets.swiper-pagination-horizontal,
   .swiper-pagination-custom,
   .swiper-pagination-fraction {
-    bottom: 5px;
+    bottom: 20px;
   }
 
   .swiper-instructor-index {
@@ -80,6 +80,29 @@ const styles = css`
     background: #fff0;
     width: 70%;
     padding-bottom: 20px;
+  }
+
+  .swiper-instructor {
+    padding-bottom: 40px;
+  }
+
+  .swiper-testimonies-pb,
+  .swiper-partner-pb {
+    padding-bottom: 24px;
+  }
+
+  .google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+  }
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
   }
 `;
 const GlobalStyles = createGlobalStyle`

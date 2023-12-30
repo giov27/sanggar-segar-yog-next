@@ -17,6 +17,7 @@ import teamData from '@/lib/teamAboutData.json';
 import TeamCard from '@/components/TeamCard';
 
 export default function TentangSanggar() {
+  const API_KEY = process.env.GOOGLE_API_KEY;
   return (
     <>
       <HeroSection>
@@ -110,7 +111,7 @@ export default function TentangSanggar() {
           freeMode={true}
           navigation={true}
           modules={[Pagination, Navigation, FreeMode]}
-          className="mySwiper pb-3"
+          className="mySwiper pb-5"
         >
           {teamData &&
             teamData.team.map((v: any, i: number) => (
@@ -133,7 +134,7 @@ export default function TentangSanggar() {
           freeMode={true}
           navigation={true}
           modules={[Pagination, Navigation, FreeMode]}
-          className="mySwiper"
+          className="mySwiper pb-4"
         >
           {mediaPartnerData &&
             mediaPartnerData.mediaPartners.map(
@@ -157,6 +158,19 @@ export default function TentangSanggar() {
         <Desc $textalign="center" $color="#000" className="mt-2">
           Ingin tahu dimana lokasi sanggar segar?
         </Desc>
+        <div className="google-maps">
+          <iframe
+            width="560"
+            height="315"
+            style={{ border: 0 }}
+            loading="lazy"
+            allowFullScreen
+            src={
+              'https://www.google.com/maps/embed/v1/place?q=place_id:ChIJKct2Y-NYei4RyNi8sYj-eF8&key=' +
+              API_KEY
+            }
+          ></iframe>
+        </div>
       </BackgroundContainer>
     </>
   );

@@ -20,7 +20,7 @@ const Btn = styled.button`
   background: #f1f1f1;
   padding: 6px 6px;
   color: #040b4a;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   line-height: normal;
   display: block;
