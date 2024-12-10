@@ -1,0 +1,50 @@
+{
+    "menus": [
+        {
+            "title": "Program Sanggar",
+            "url": "/tentang-sanggar",
+            "sub": [
+                {
+                    "title": "kelas Umum",
+                    "url": "#",
+                    "sub": []
+                },
+                {
+                    "title": "Program Level I & II",
+                    "url": "#",
+                    "sub": []
+                },
+                {
+                    "title": "Program Bantuan Pemerintah (BanPer)",
+                    "url": "#",
+                    "sub": []
+                },
+                {
+                    "title": "Program Khusus",
+                    "url": "#",
+                    "sub": []
+                },
+                {
+                    "title": "Pelatihan Instruktur",
+                    "url": "#",
+                    "sub": []
+                }
+            ]
+        },
+        {
+            "title": "Instruktur",
+            "url": "/instruktur",
+            "sub": []
+        },
+        {
+            "title": "Membership",
+            "url": "/membership",
+            "sub": []
+        },
+        {
+            "title": "Tentang Sanggar",
+            "url": "/tentang-sanggar",
+            "sub": []
+        }        
+    ]
+}

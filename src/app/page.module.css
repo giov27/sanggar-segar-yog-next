@@ -11,3 +11,7 @@
   color: #040b4a !important;
   font-weight: 800;
 }
+
+.navAccordionItem{
+  border: 0;
+}

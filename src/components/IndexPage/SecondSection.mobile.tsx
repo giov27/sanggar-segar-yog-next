@@ -14,6 +14,7 @@ import {
 import { Swiper, SwiperSlide } from 'swiper/react';
 import instructorsData from '@/lib/instructorPageData.json';
 import { FreeMode, Navigation, Pagination } from 'swiper/modules';
+import ClassSection from '../fragments/classSection';
 
 const SecondSectionMobile = () => {
   return (
@@ -26,6 +27,7 @@ const SecondSectionMobile = () => {
           Berbagai macam pilihan kelas senam maupun seni dengan metode
           pelatihan terbaik yang sesuai dengan keinginanmu
         </Desc>
+        <ClassSection/>
         <div className="w-100 text-center">
           <StyledButton $bgcolor="#3AD6AB" $color="#FFF">
             Lihat Semua Kelas

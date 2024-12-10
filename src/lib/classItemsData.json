@@ -1,0 +1,101 @@
+{
+    "classes": [
+        {
+            "name": "Kelas Umum",
+            "items": [
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Aerobic",
+                    "price": "Rp 20.000",
+                    "desc": "Jenis senam dengan gerakan yang beriringan dengan irama musik, dapat membantumu jadi lebih bugar."
+                },
+                {
+                    "image_url": "/classes/instructor_yoga_pilates.png",
+                    "name": "Yoga and Pilates",
+                    "price": "Rp 20.000",
+                    "desc": "Olahraga yang berfokus pada kelenturan, meditasi, dan pengelolaan stres, serta menempa stamina tubuh."
+                },
+                {
+                    "image_url": "/classes/general_line_dance.png",
+                    "name": "Line Dance",
+                    "price": "Rp 20.000",
+                    "desc": "Seni olah tubuh dengan sentuhan koreografi gerakan tari (dansa)."
+                },
+                {
+                    "image_url": "/classes/general_belly_dance.png",
+                    "name": "Belly Dance",
+                    "price": "Rp 20.000",
+                    "desc": "Tipe tarian yang didominasi oleh gerakan perut dan pinggul, untuk kebugaran jasmani."
+                }
+            ]
+        },
+        {
+            "name": "Program Level II & III",
+            "items": [
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Program Level II (Reguler)",
+                    "price": "Rp 2.000.000",
+                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                },
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Program Level III (Reguler)",
+                    "price": "Rp 2.000.000",
+                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                }
+            ]
+        },
+        {
+            "name": "Program Bantuan Pemerintah (BanPer)",
+            "items": [
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Program Level II (Reguler)",
+                    "price": "Rp 2.000.000",
+                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                },
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Program Level III (Reguler)",
+                    "price": "Rp 2.000.000",
+                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                }
+            ]
+        },
+        {
+            "name": "Program Khusus",
+            "items": [
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Program Level II (Reguler)",
+                    "price": "Rp 2.000.000",
+                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                },
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Program Level III (Reguler)",
+                    "price": "Rp 2.000.000",
+                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                }
+            ]
+        },
+        {
+            "name": "Pelatihan Instruktur",
+            "items": [
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Program Level II (Reguler)",
+                    "price": "Rp 2.000.000",
+                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                },
+                {
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "name": "Program Level III (Reguler)",
+                    "price": "Rp 2.000.000",
+                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                }
+            ]
+        }
+    ]
+}
