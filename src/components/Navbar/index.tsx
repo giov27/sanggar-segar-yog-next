@@ -111,7 +111,7 @@ function NavigationBar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" style={{ textAlign: 'center' }}>
             {
               MenuItems.menus.map((v: any, i: number) => {
                 return !v.sub.length
@@ -122,7 +122,9 @@ function NavigationBar() {
                         return (
                           <NavDropdown.Item
                             key={`${i}_${j}_${v_sub.title}`}
-                            href={v_sub.url}>
+                            href={v_sub.url}
+                            style={{ textAlign: 'center' }}
+                          >
                             {v_sub.title}
                           </NavDropdown.Item>
                         )

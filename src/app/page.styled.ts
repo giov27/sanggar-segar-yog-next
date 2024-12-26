@@ -72,7 +72,7 @@ export const SubTitle = styled.h2<{
   $color?: string;
 }>`
   color: ${({ $color }) => ($color ? $color : '#FFF')};
-  font-size: 24px;
+  font-size: 1em;
   font-style: normal;
   font-weight: 700;
   line-height: normal;

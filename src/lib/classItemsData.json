@@ -4,27 +4,27 @@
             "name": "Kelas Umum",
             "items": [
                 {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
                     "name": "Aerobic",
-                    "price": "Rp 20.000",
+                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
+                    "price": "Mulai dari Rp 20.000",
                     "desc": "Jenis senam dengan gerakan yang beriringan dengan irama musik, dapat membantumu jadi lebih bugar."
                 },
                 {
-                    "image_url": "/classes/instructor_yoga_pilates.png",
                     "name": "Yoga and Pilates",
-                    "price": "Rp 20.000",
+                    "image_url": "/classes/instructor_yoga_pilates.png",
+                    "price": "Mulai dari Rp 20.000",
                     "desc": "Olahraga yang berfokus pada kelenturan, meditasi, dan pengelolaan stres, serta menempa stamina tubuh."
                 },
                 {
-                    "image_url": "/classes/general_line_dance.png",
                     "name": "Line Dance",
-                    "price": "Rp 20.000",
+                    "image_url": "/classes/general_line_dance.png",
+                    "price": "Mulai dari Rp 20.000",
                     "desc": "Seni olah tubuh dengan sentuhan koreografi gerakan tari (dansa)."
                 },
                 {
-                    "image_url": "/classes/general_belly_dance.png",
                     "name": "Belly Dance",
-                    "price": "Rp 20.000",
+                    "image_url": "/classes/general_belly_dance.png",
+                    "price": "Mulai dari Rp 20.000",
                     "desc": "Tipe tarian yang didominasi oleh gerakan perut dan pinggul, untuk kebugaran jasmani."
                 }
             ]
@@ -33,16 +33,28 @@
             "name": "Program Level II & III",
             "items": [
                 {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
                     "name": "Program Level II (Reguler)",
-                    "price": "Rp 2.000.000",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                    "image_url": "/classes/level_ii_reg.png",
+                    "price": "Mulai dari Rp 2.000.000",
+                    "desc": "Program pelatihan mahir untuk kompetensi instruktur seni level dasar"
                 },
                 {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
                     "name": "Program Level III (Reguler)",
-                    "price": "Rp 2.000.000",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                    "image_url": "/classes/level_iii_reg.png",
+                    "price": "Mulai dari Rp 2.000.000",
+                    "desc": "Program pelatihan mahir untuk kompetensi instruktur seni level lanjutan"
+                },
+                {
+                    "name": "Program Level II (Kelas Privat)",
+                    "image_url": "/classes/level_ii_private.png",
+                    "price": "Mulai dari Rp 4.000.000",
+                    "desc": "Program privat pelatihan mahir untuk kompetensi instruktur seni level dasar"
+                },
+                {
+                    "name": "Program Level III (Kelas Privat)",
+                    "image_url": "/classes/level_iii_private.png",
+                    "price": "Mulai dari Rp 4.000.000",
+                    "desc": "Program privat pelatihan mahir untuk kompetensi instruktur seni level lanjutan"
                 }
             ]
         },
@@ -50,16 +62,10 @@
             "name": "Program Bantuan Pemerintah (BanPer)",
             "items": [
                 {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
-                    "name": "Program Level II (Reguler)",
-                    "price": "Rp 2.000.000",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
-                },
-                {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
-                    "name": "Program Level III (Reguler)",
-                    "price": "Rp 2.000.000",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                    "name": "Kelas Bantuan Pemerintah",
+                    "image_url": "/classes/banper.png",
+                    "price": "*Gratis Bersyarat",
+                    "desc": "Kelas pelatihan gratis bersyarat dari direktorat kursus dan pelatihan kemendikbud"
                 }
             ]
         },
@@ -67,33 +73,57 @@
             "name": "Program Khusus",
             "items": [
                 {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
-                    "name": "Program Level II (Reguler)",
-                    "price": "Rp 2.000.000",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                    "name": "Line Dance (Kelas Instruktur)",
+                    "image_url": "/classes/special_line_dance.png",
+                    "price": "Rp 500.000",
+                    "desc": "Seni olah tubuh dengan sentuhan koreografi gerakan tari (dansa)."
                 },
                 {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
-                    "name": "Program Level III (Reguler)",
-                    "price": "Rp 2.000.000",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                    "name": "Belly Dance (Kelas Instruktur)",
+                    "image_url": "/classes/special_belly_dance.png",
+                    "price": "Rp 500.000",
+                    "desc": "Tipe tarian yang didominasi oleh gerakan perut dan pinggul, untuk kebugaran jasmani."
                 }
             ]
         },
         {
-            "name": "Pelatihan Instruktur",
+            "name": "Program Khusus Instruktur",
             "items": [
                 {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
-                    "name": "Program Level II (Reguler)",
-                    "price": "Rp 2.000.000",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                    "name": "Body Language Exercise",
+                    "image_url": "/classes/instructor_body_lang.png",
+                    "price": "Rp 500.000",
+                    "desc": "Program kelas instruktur untuk mahir dalam bidang Body Language Exercise."
                 },
                 {
-                    "image_url": "/classes/kelas_latihan_senam_aerobik.png",
-                    "name": "Program Level III (Reguler)",
-                    "price": "Rp 2.000.000",
-                    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo corrupti eos culpa similique nisi aliquam soluta mollitia quidem ex!"
+                    "name": "Belly Dance",
+                    "image_url": "/classes/instructor_belly_dance.png",
+                    "price": "Rp 500.000",
+                    "desc": "Program kelas instruktur untuk mahir dalam bidang Belly Dance."
+                },
+                {
+                    "name": "Jab and Kick",
+                    "image_url": "/classes/instructor_jab_kick.png",
+                    "price": "Rp 500.000",
+                    "desc": "Program kelas instruktur untuk mahir dalam bidang Jab and Kick."
+                },
+                {
+                    "name": "Line Dance",
+                    "image_url": "/classes/instructor_line_dance.png",
+                    "price": "Rp 500.000",
+                    "desc": "“Program kelas instruktur untuk mahir dalam bidang Line Dance.”"
+                },
+                {
+                    "name": "Step Dance",
+                    "image_url": "/classes/instructor_step_dance.png",
+                    "price": "Rp 500.000",
+                    "desc": "Program kelas instruktur untuk mahir dalam bidang Step Dance."
+                },
+                {
+                    "name": "Yoga and Pilates",
+                    "image_url": "/classes/instructor_yoga_pilates.png",
+                    "price": "Rp 500.000",
+                    "desc": "Program kelas instruktur untuk mahir dalam bidang Yoga and Pilates."
                 }
             ]
         }

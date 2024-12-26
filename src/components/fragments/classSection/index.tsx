@@ -1,6 +1,7 @@
-import { Accordion } from 'react-bootstrap';
+import { Accordion, Container, Row } from 'react-bootstrap';
 import ClassItems from '@/lib/classItemsData.json';
 import ClassCard from './ClassCard';
+import ClassCardContainer from './ClassCardContainer';
 
 function ClassSection() {
   return (
@@ -8,23 +9,18 @@ function ClassSection() {
       {
         ClassItems.classes.map((v: any, i: number) => {
           return (
-            <Accordion.Item key={`${i}_${v.name}`} eventKey={`${i}`}>
+            <Accordion.Item
+              key={`${i}_${v.name}`}
+              eventKey={`${i}`}
+              style={{
+                marginBottom: '1em',
+                // border: 'unset',
+                borderRadius: 'var(--bs-accordion-border-radius)'
+              }}
+            >
               <Accordion.Header>{v.name}</Accordion.Header>
               <Accordion.Body>
-                {
-                  v.items &&
-                  v.items.map((classItem: any, j: number) => {
-                    return (
-                      <ClassCard
-                        key={`${classItem.name}_${j}`}
-                        name={classItem.name}
-                        price={classItem.price}
-                        image_url={classItem.image_url}
-                        desc={classItem.desc}
-                      />
-                    )
-                  })
-                }
+                <ClassCardContainer classItems={v.items}/>
               </Accordion.Body>
             </Accordion.Item>
           )
