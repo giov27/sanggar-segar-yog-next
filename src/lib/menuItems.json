@@ -6,27 +6,27 @@
             "sub": [
                 {
                     "title": "kelas Umum",
-                    "url": "#",
+                    "url": "/kelas-umum",
                     "sub": []
                 },
                 {
                     "title": "Program Level I & II",
-                    "url": "#",
+                    "url": "/program-kelas-II-&-III",
                     "sub": []
                 },
                 {
                     "title": "Program Bantuan Pemerintah (BanPer)",
-                    "url": "#",
+                    "url": "/program-bantuan-pemerintah",
                     "sub": []
                 },
                 {
                     "title": "Program Khusus",
-                    "url": "#",
+                    "url": "/program-khusus",
                     "sub": []
                 },
                 {
                     "title": "Pelatihan Instruktur",
-                    "url": "#",
+                    "url": "/pelatihan-instruktur",
                     "sub": []
                 }
             ]

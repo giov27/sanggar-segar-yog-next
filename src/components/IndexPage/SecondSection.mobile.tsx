@@ -27,7 +27,7 @@ const SecondSectionMobile = () => {
           Berbagai macam pilihan kelas senam maupun seni dengan metode
           pelatihan terbaik yang sesuai dengan keinginanmu
         </Desc>
-        <ClassSection/>
+        <ClassSection />
         <div className="w-100 text-center">
           <StyledButton $bgcolor="#3AD6AB" $color="#FFF">
             Lihat Semua Kelas
@@ -41,7 +41,7 @@ const SecondSectionMobile = () => {
           kamu dalam proses belajar seni di Sanggar Segar
         </Desc>
         <Swiper
-          slidesPerView={2}
+          // slidesPerView={4}
           // centeredSlides={true}
           spaceBetween={20}
           pagination={{
@@ -52,6 +52,22 @@ const SecondSectionMobile = () => {
           navigation={true}
           modules={[Pagination, Navigation, FreeMode]}
           className="mySwiper"
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            320: {
+              slidesPerView: 2,
+            },
+            // ketika lebar layar >= 768px
+            768: {
+              slidesPerView: 3,
+            },
+            // ketika lebar layar >= 1024px
+            1024: {
+              slidesPerView: 4,
+            },
+          }}
         >
           {instructorsData &&
             instructorsData.instructors.map((v: any, i: number) => (
